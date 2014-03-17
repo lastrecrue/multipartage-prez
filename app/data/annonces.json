@@ -1,0 +1,21 @@
+[
+    {
+        "id": 0, 
+        "sujet": "motorola-xoom-with-wi-fi", 
+        "prix": "400", 
+        "codepostal": "34400", 
+        "description": "The Next, Next Generation\r\n\r\nExperience the future with Motorola XOOM with Wi-Fi, the world's first tablet powered by Android 3.0 (Honeycomb).",
+        "user":"achraf"
+        "images":{"","","",""}
+    },    
+    {
+    
+      	"id": 15, 
+        "sujet": "US Cellular", 
+        "prix": "400", 
+        "codepostal": "38240", 
+        "description": "Samsung Mesmerize\u2122 a Galaxy S\u2122 phone", 
+        "user": "achraf",
+        "images":{"","","",""}    
+	}
+]

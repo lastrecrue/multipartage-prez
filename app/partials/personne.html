@@ -1,0 +1,36 @@
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span2">
+			<!--Sidebar content-->
+
+			Search: <input ng-model="query">
+
+
+		</div>
+		<div class="span10">
+			<!--Body content-->
+
+			<div class="well">
+				<label>name:</label> <input type="text" ng-class="span3"
+					placeholder="Type something..." ng-model="personne.name"> <span
+					class="help-inline">Associated help text!</span> <label>age:
+				</label><input type="text" ng-class="span3" placeholder="Type something..."
+					ng-model="personne.age" /><span class="help-inline">Associated
+					help text!</span> <label class="checkbox"> <input type="checkbox">
+					Check me out
+				</label>
+				<button type="submit" class="btn" ng-click="submit()">Submit</button>
+			</div>
+
+			<div class="well">
+				<label>name:</label> <span class="help-inline">{{response.name}}</span>
+				<label>age: </label> <span class="help-inline">{{response.age}}</span>
+				<label class="checkbox"> <input type="checkbox">
+					Check me out
+				</label>
+				<button type="submit" class="btn" ng-click="submit()">Submit</button>
+			</div>
+
+		</div>
+	</div>
+</div>
